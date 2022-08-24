@@ -18,11 +18,8 @@ Instructions for building the library can be found in the [Wiki](https://github.
 The main source code of our algorithms are distributed in different folders.  The main functions are:
 
 * ep13_map(ep13_t p, const uint8_t *msg, int len) :Maps a byte array to a point of BW13-P310.
-* ep13_cof_fuentes(q, p):Given a random point q , hashing q to G2 with method II.
-* ep13_cof_fuentes(ep13_t r, ep13_t p) : Given a random point q of E, hashing q to G2 using generlized fuentes et's method.
-
-
- Note the the previous fastest memberhship testings algotithms on the BN-P446 curve are presented in functions g2_is_valid(const g2_t a) and gt_is_valid(const gt_t a), respectively.
+* ep13_cof_fuentes(ep13_t r, ep13_t p) : Given a random point q , hashing q to $\mathbb{G}_2$ using Method I.
+* ep13_cof(ep13_t r, ep13_t p):Given a random point p , hashing q to $\mathbb{G}_2$ using Method II .
 
  ### Benckmarks
  The function for benckmarking are presented in [bench_pc.c](https://github.com/eccdaiy39/smt/blob/master/smt-relic/bench/bench_pc.c) for the BN-P446 curve and 
