@@ -21,6 +21,7 @@ The main source code of our algorithms are distributed in different folders.  Th
 * ep13_map(ep13_t p, const uint8_t *msg, int len) :Maps a byte array to a point of BW13-P310.
 * ep13_cof_fuentes(ep13_t r, ep13_t p) : Given a random point p , hashing p to $\mathbb{G}_2$ using Method I.
 * ep13_cof(ep13_t r, ep13_t p):Given a random point p , hashing p to $\mathbb{G}_2$ using Method II.
+
 Hashing to $\mathbb{G}_2$ can be accomplished by perfroming ep13_map()+ep13_cof_fuentes() or  ep13_map()+ep13_cof.
 
  ### Benckmarks
