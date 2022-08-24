@@ -1,9 +1,7 @@
 ### Algorithms
 
 Based on the RELIC toolkit we implement:
-
-we implemented hashing to $\mathbb{G}_2$ on the BW13-P310 curve with two methods presented in <URL https://eprint.iacr.org/2022/996>. The first one is seen as a generlized  Fuentes et al method and
-the second one is 
+ hashing to $\mathbb{G}_2$ on the BW13-P310 curve with two methods presented in https://eprint.iacr.org/2022/996. The first method is seen as a generlized  Fuentes et al method and the second one is a further optimiation based on the first one.
 The preset file is in the preset folder in the name of gmp-ecc-bw310.sh.<br/>
 
 ### Requirements
@@ -18,8 +16,11 @@ Instructions for building the library can be found in the [Wiki](https://github.
 ### Source code
   
 The main source code of our algorithms are distributed in different folders.  The main functions are:
-* 
-*
+
+*ep13_map(p, msg, 5);
+* ep13_cof_fuentes(q, p);
+*ep13_cof(q, p);
+
 
  Note the the previous fastest memberhship testings algotithms on the BN-P446 curve are presented in functions g2_is_valid(const g2_t a) and gt_is_valid(const gt_t a), respectively.
 
@@ -29,17 +30,13 @@ The main source code of our algorithms are distributed in different folders.  Th
  Here we give a direct way to obtain concrete datas.
   
 
-![image](https://github.com/eccdaiy39/smt/blob/master/image/G2-BN.png)
-![image](https://github.com/eccdaiy39/smt/blob/master/image/GT-BN.png)
 
 
   1. mkdir build && cd build 
   2. ../preset/gmp-ecc-bw310.sh ../
   3. make
-  4. cd bin && ./bench_pc_bw13
+  4. cd bin && ./bench_hash
   
-![image](https://github.com/eccdaiy39/smt/blob/master/image/BW13.png)
-
 
  
 
