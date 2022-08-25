@@ -37,7 +37,8 @@ Hashing to $\mathbb{G}_2$ can be accomplished by perfroming ep13_map()+ep13_cof_
   
  ### Contact
  email:daiy39@mail2.sysu.edu.cn<br/>
- please contact me via email for any questions.
+ 
+ Please contact me via email for any questions.
   
 
  
