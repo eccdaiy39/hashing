@@ -27,7 +27,7 @@ The main source code of our algorithms are distributed in different folders.  Th
  ### Benckmarks
  The functions for benckmarking are presented in [bench_pc.c](https://github.com/eccdaiy39/smt/blob/master/smt-relic/bench/bench_pc.c) for the BN-P446 curve and 
  [bench_pc_bw13.c](https://github.com/eccdaiy39/smt/blob/master/smt-relic/bench/bench_pc_bw13.c) for the BW13-P310 curve.
- Here we give a direct way to obtain concrete datas.
+ Timing results can be obtained by performing the following commands：
   
 
   1. mkdir build && cd build 
