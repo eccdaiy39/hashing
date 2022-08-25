@@ -3,7 +3,7 @@
 Based on the famous [RELIC cryptographic library](https://github.com/relic-toolkit/relic) we implement:
  hashing to $\mathbb{G}_2$ on the BW13-P310 curve with two methods presented in https://eprint.iacr.org/2022/996. The first method (Method I) is seen as a generlized  Fuentes et al method. 
  The second one (Method II) is a further optimiation based on the first one.
-The preset file is in the preset folder in the name of gmp-ecc-bw310.sh.<br/>
+The preset file can be found in  <preset> folder in the name of gmp-ecc-bw310.sh.<br/>
 
 ### Requirements
 
