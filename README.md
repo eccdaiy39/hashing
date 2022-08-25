@@ -35,6 +35,10 @@ Hashing to $\mathbb{G}_2$ can be accomplished by perfroming ep13_map()+ep13_cof_
   3. make
   4. cd bin && ./bench_hash
   
+ ### Contact
+ email:daiy39@mail2.sysu.edu.cn<br/>
+ please contact me via email for any questions.
+  
 
  
 
