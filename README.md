@@ -25,7 +25,7 @@ The main source code of our algorithms are distributed in different folders.  Th
  hashing to $\mathbb{G}_2$  can be accomplished by perfroming ep13_map()+ep13_cof_fuentes() or  ep13_map()+ep13_cof.
 
  ### Benckmarks
- The functions for benckmarking are presented in [bench_hash.c](https://github.com/eccdaiy39/smt/blob/master/smt-relic/bench/bench_hahs.c)
+ The functions for benckmarking are presented in [bench_hash.c](https://github.com/eccdaiy39/smt/blob/master/smt-relic/bench/bench_hash.c)
  Timing results can be obtained by performing the following commands：
   
 
