@@ -34,9 +34,5 @@ The main source code of our algorithms are distributed in different folders.  Th
   3. make
   4. cd bin && ./bench_hash
   
- ### Contact
- email:daiy39@mail2.sysu.edu.cn<br/>
- 
- Please contact me via email for any questions.
 
 
