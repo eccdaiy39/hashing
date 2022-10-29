@@ -30,7 +30,7 @@ The main source code of our algorithms are distributed in different folders.  Th
   
 
   1. mkdir build && cd build 
-  2. ../preset/gmp-ecc-bw310.sh ../
+  2. ../preset/x64-pbc-bw310.sh ../
   3. make
   4. cd bin && ./bench_hash
   
