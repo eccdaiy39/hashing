@@ -25,8 +25,7 @@ The main source code of our algorithms are distributed in different folders.  Th
  hashing to $\mathbb{G}_2$  can be accomplished by perfroming ep13_map()+ep13_cof_fuentes() or  ep13_map()+ep13_cof.
 
  ### Benckmarks
- The functions for benckmarking are presented in [bench_pc.c](https://github.com/eccdaiy39/smt/blob/master/smt-relic/bench/bench_pc.c) for the BN-P446 curve and 
- [bench_pc_bw13.c](https://github.com/eccdaiy39/smt/blob/master/smt-relic/bench/bench_pc_bw13.c) for the BW13-P310 curve.
+ The functions for benckmarking are presented in [bench_hash.c](https://github.com/eccdaiy39/smt/blob/master/smt-relic/bench/bench_hahs.c)
  Timing results can be obtained by performing the following commands：
   
 
