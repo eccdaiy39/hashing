@@ -80,3 +80,4 @@ endif(WITH_MPC)
 
 ADD_MODULE(rand)
 ADD_MODULE(core)
+ADD_MODULE(hash)

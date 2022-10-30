@@ -1,9 +1,9 @@
 ### Algorithms
 
 Based on the famous [RELIC cryptographic library](https://github.com/relic-toolkit/relic) we implement:
- hashing to $\mathbb{G}_2$ on the BW13-P310 curve with two methods presented in https://eprint.iacr.org/2022/996. The first method (Method I) is seen as a generlized  Fuentes et al method. 
+ hashing to $\mathbb{G}_2$ on the BW13-P310 curve with two methods. The first method (Method I) is seen as a generlized  Fuentes et al method. 
  The second one (Method II) is a further optimiation based on the first one.
-The preset file can be found in  <preset> folder in the name of gmp-ecc-bw310.sh.<br/>
+The preset file can be found in  <preset> folder in the name of x64-pbc-bw310.sh<br/>
 
 ### Requirements
 
@@ -24,15 +24,18 @@ The main source code of our algorithms are distributed in different folders.  Th
 
  hashing to $\mathbb{G}_2$  can be accomplished by perfroming ep13_map()+ep13_cof_fuentes() or  ep13_map()+ep13_cof.
 
- ### Benckmarks
+ ### Tests and Benckmarks
+The functions for tests are presented in [test_hash.c](https://github.com/eccdaiy39/hashing/tree/master/hashing-relic/test/test_hash.c).
  The functions for benckmarking are presented in [bench_hash.c](https://github.com/eccdaiy39/hashing/tree/master/hashing-relic/bench/bench_hash.c)
- Timing results can be obtained by performing the following commands：
+ Testing and Timing results can be obtained by performing the following commands：
   
 
   1. mkdir build && cd build 
   2. ../preset/x64-pbc-bw310.sh ../
   3. make
-  4. cd bin && ./bench_hash
+  4. cd bin 
+  5. ./test_hash
+  6. ./bench_hash
   
 
 
