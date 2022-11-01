@@ -1,6 +1,6 @@
 ### Algorithms
 
-Based on the famous [RELIC cryptographic library](https://github.com/relic-toolkit/relic) we implement:
+Based on the famous [RELIC cryptographic toolkit](https://github.com/relic-toolkit/relic) we implement:
  hashing to $\mathbb{G}_2$ on the BW13-P310 curve with two methods. The first method (Method I) is seen as a generlized  Fuentes et al method. 
  The second one (Method II) is a further optimiation based on the first one.
 The preset file can be found in  <preset> folder in the name of x64-pbc-bw310.sh<br/>
